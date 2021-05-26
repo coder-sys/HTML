@@ -1,0 +1,26 @@
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+ body{
+    border: 3px solid red;
+}
+.header{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    display:flex;
+    text-align: center;
+}
+.header > div{
+    background-color: cyan;
+    color:green
+}
+.grid{
+    display: flex;
+    flex-wrap: column;
+    justify-content: space-evenly;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+
+}
